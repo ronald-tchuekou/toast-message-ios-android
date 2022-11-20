@@ -1,10 +1,17 @@
 {
   "expo": {
-    "name": "toast-messages",
+    "name": "Toast Messages",
     "slug": "toast-messages",
     "version": "1.0.0",
+    "owner": "ronald-tchuekou",
     "orientation": "portrait",
+    "primaryColor": "#FFFFFF",
     "icon": "./assets/icon.png",
+    "description": "Démo to show toast messages on iOS and Android with expo and react native.",
+    "githubUrl": "https://github.com/ronald-tchuekou/toast-message-ios-android.git",
+    "developmentClient": {
+      "silentLaunch": false
+    },
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -28,6 +35,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c529caa-a6b5-4c2e-ae85-f43241560543"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
